@@ -27,7 +27,7 @@ variable "subnetwork" {
 
 variable "machine_type" {
     description = "size of the compute resources"
-    default = "n1-standard-1"
+    default = "e2-standard-2"
 }
 
 variable "preemptible" {
