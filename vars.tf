@@ -2,18 +2,19 @@ variable "project_id" {
     description = "GCP Project ID for GKE deployment"
 }
 
+
 variable "location" {
     description = "location to deploy kubernetes cluster into"
-    default = "us-central1-a"
+    default     = "us-central1-a"
 }
 
 variable "cluster_name" {
-    description = name of kubernetes cluster"
+    description = "name of kubernetes cluster"
 }
 
 variable "initial_node_count" {
     description = "initial amount of nodes to deploy for the kubernetes cluster"
-    default = "1"
+    default     = "1"
 }
 
 variable "network" {
