@@ -2,7 +2,6 @@ variable "project_id" {
     description = "GCP Project ID for GKE deployment"
 }
 
-
 variable "location" {
     description = "location to deploy kubernetes cluster into"
     default     = "us-central1-a"
